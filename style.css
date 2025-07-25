@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to left, #ec71e4, #4aed38);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+form {
+
+    background: linear-gradient(to top, #65b9dd, rgb(188, 67, 144));
+  
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+input[type="submit"],
+button{
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-bottom:15px ;
+}
+
+input[type="submit"]:hover,
+button:hover {
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+}
+a{
+  text-decoration: none;
+    
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 120px;
+  padding-right: 120px;
+  
+ 
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-bottom:15px ;
+}
